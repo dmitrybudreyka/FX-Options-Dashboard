@@ -85,14 +85,3 @@ Run tests:
 pytest
 ```
 
-## Interview Pitch
-
-I built a Python-based FX options analytics dashboard that constructs an implied volatility surface, prices EUR/USD options using the Garman-Kohlhagen model, calculates Greeks, runs scenario analysis, and generates delta-hedging recommendations. The goal was to replicate a simplified version of the analytics workflow used on an FX Options trading desk.
-
-## Talking Points
-
-- The volatility surface separates market data from the pricing model.
-- The option pricer validates inputs and supports both calls and puts.
-- Greeks are analytical, which makes them fast and explainable.
-- Scenario analysis shows how P&L changes under spot, volatility, rate, and time shocks.
-- Delta hedging converts model output into a practical trading action.
